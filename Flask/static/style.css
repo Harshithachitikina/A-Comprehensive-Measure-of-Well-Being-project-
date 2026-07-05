@@ -1,7 +1,5 @@
 body{
-
-body{
-    background: url("../static/bg.png");
+    background-image: url("/static/bp.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,98 +8,63 @@ body{
     font-family: Arial, sans-serif;
     color: white;
     margin: 0;
-}
-
+    padding: 0;
 }
 
 .navbar{
-
-background:#111;
-
-padding:20px;
-
-text-align:right;
-
+    background:#111;
+    padding:20px;
+    text-align:right;
 }
 
 .navbar a{
-
-color:white;
-
-margin:20px;
-
-text-decoration:none;
-
-font-size:18px;
-
+    color:white;
+    margin:20px;
+    text-decoration:none;
+    font-size:18px;
 }
 
 .container{
-
-width:80%;
-
-margin:auto;
-
-padding:40px;
-
-text-align:center;
-
+    width:80%;
+    margin:auto;
+    padding:40px;
+    text-align:center;
 }
 
 .form-box{
-
-width:450px;
-
-margin:60px auto;
-
-background:#111;
-
-padding:30px;
-
-border-radius:20px;
-
+    width:450px;
+    margin:60px auto;
+    background:rgba(0,0,0,0.75);
+    padding:30px;
+    border-radius:20px;
 }
 
 input{
-
-width:100%;
-
-padding:12px;
-
-margin:12px 0;
-
-border-radius:20px;
-
-border:none;
-
+    width:100%;
+    padding:12px;
+    margin:12px 0;
+    border-radius:20px;
+    border:none;
+    box-sizing:border-box;
 }
 
 button{
+    background:#6d5dfc;
+    color:white;
+    padding:14px 30px;
+    border:none;
+    border-radius:25px;
+    font-size:18px;
+    cursor:pointer;
+}
 
-background:#6d5dfc;
-
-color:white;
-
-padding:14px 30px;
-
-border:none;
-
-border-radius:25px;
-
-font-size:18px;
-
-cursor:pointer;
-
+button:hover{
+    background:#4d3dfc;
 }
 
 .result{
-
-font-size:35px;
-
-color:#00ff99;
-
-margin:40px;
-
-font-weight:bold;
-
+    font-size:35px;
+    color:#00ff99;
+    margin:40px;
+    font-weight:bold;
 }
